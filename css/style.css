@@ -213,6 +213,27 @@ img{
 .home-text p{
     margin: 0 0 30px;
 }
+.home-img{
+    position: relative;
+}
+.home-img .circle-wrap{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: -1;
+}
+.home-img .circle{
+    height: 300px;
+    width: 300px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+/* .home-img img{
+    max-width: 270px;
+    display: block;
+    margin: auto;
+} */
 
 /* about */
 /* team */
