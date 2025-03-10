@@ -169,6 +169,7 @@ img{
     display: block;
     transform: scaleY(0.9);
     letter-spacing: 2px;
+    padding: 10px 0;
 }
 .header .logo span{
     font-size: 12px;
