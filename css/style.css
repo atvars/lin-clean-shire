@@ -290,17 +290,23 @@ padding: 60px 0;
     box-shadow: var(--shadow);
     position: relative;
 } */
-.about-img img{
-    max-width: 200px;
+/* .about-img img{
+    max-width: 400px;
     margin: auto;
     padding: 50px;
     border-radius: 50%;
     background-color: var(--bg-color);
     box-shadow: var(--shadow);
     position: relative;
-}
+} */
 .about-img .img-box img{
     border-radius: 50%;
+    margin: auto;
+    padding: 50px;
+    border-radius: 50%;
+    /* background-color: var(--bg-color); */
+    /* box-shadow: var(--shadow); */
+    position: relative;
     /* box-shadow: var(--shadow) */
 }
 .about-img .box{
@@ -316,8 +322,8 @@ padding: 60px 0;
     padding: 15px;
 }
 .about-img .box-1{
-    top: 50%;
-    left: 0;
+    top: 130%;
+    left: 30;
     transform: translate(-50%, -50%);
 }
 .about-img .box span{
@@ -349,14 +355,19 @@ padding: 60px 0;
     padding: 8px;
 } */
 .services-item .img-box img{
-    height: 140px;
-    width: 140px;
-    margin: 0 auto 35px;
+    height: 160px;
+    width: 160px;
+    margin: 0 auto 20px;
     border-radius: 50%;
     transition: transform 0.5s ease;
 }
 .services-item:hover img{
-    transform: scale(1.5);
+    transform: scale(1.2);
+}
+.services-item h3{
+    text-transform: capitalize;
+    font-size: var(--fs-xl);
+    font-weight: 500;
 }
 
 /**********************************************************************  pricing */
