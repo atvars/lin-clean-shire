@@ -208,7 +208,7 @@ textarea.input-control{
     width: 100%;
     z-index: 2;
     padding: 10px 0;
-    background-color: var(--bg-color);
+    background-color: var(--main-color);
     box-shadow: var(--shadow);
 }
 /* .header::before{
@@ -241,12 +241,13 @@ textarea.input-control{
     transform: scaleY(0.9);
     letter-spacing: 2px;
     padding: 10px 0;
+    color: white;
 }
 .header .logo span{
     font-size: 12px;
     display: block;
     font-weight: 400;
-    color: var(--text-x-dark-gray);
+    color: var(--text-light-gray);
     letter-spacing: 1px;
 }
 .nav li{
@@ -263,7 +264,7 @@ textarea.input-control{
     transition: color 0.3s ease;
 }
 .nav a:hover{
-    color: var(--main-color)
+    color: var(--text-white)
 }
 .nav-toggler{
     display: none;
@@ -358,7 +359,7 @@ textarea.input-control{
     padding: 15px;
 }
 .about-img .box-1{
-    top: 130%;
+    top: 140%;
     /* left: 40; */
     transform: translate(-10%, -90%);
 }
@@ -642,4 +643,12 @@ textarea.input-control{
   .modalBtn {
     margin: 20px;
     cursor: pointer;
+  }
+  .sub-title-modal{
+    font-size: var(--fs-2xl);
+    color: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
   }
