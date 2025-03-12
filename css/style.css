@@ -208,8 +208,10 @@ textarea.input-control{
     width: 100%;
     z-index: 2;
     padding: 10px 0;
+    background-color: var(--bg-color);
+    box-shadow: var(--shadow);
 }
-.header::before{
+/* .header::before{
     content: '';
     position: absolute;
     left: 0;
@@ -221,10 +223,10 @@ textarea.input-control{
     z-index: -1;
     transform: translateY(calc(-100% - 10px));
     transition: transform 0.5s ease;
-}
-.header.bg-reveal::before{
+} */
+/* .header.bg-reveal::before{
     transform: translateY(0);
-}
+} */
 .header .container{
  display: flex;
  align-items: center;
