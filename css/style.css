@@ -345,6 +345,7 @@ textarea.input-control{
     /* box-shadow: var(--shadow); */
     position: relative;
     /* box-shadow: var(--shadow) */
+    margin-top: 50px;
 }
 .about-img .box{
     height: 125px;
@@ -359,9 +360,10 @@ textarea.input-control{
     padding: 15px;
 }
 .about-img .box-1{
-    top: 140%;
+    /* margin-top: 20px; */
+    top: 138%;
     /* left: 40; */
-    transform: translate(-10%, -90%);
+    transform: translate(-15%, -100%);
 }
 .about-img .box span{
     color: var(--text-white);
