@@ -561,6 +561,12 @@ textarea.input-control{
 }
 
 /**********************************************************************  testimonials */
+.testimonial{
+    grid-column: span 4;
+    background-color: var(--bg-white);
+    padding: 20px;
+}
+
 /**********************************************************************  footer */
 .coppy{
     color: var(--text-light-gray);
