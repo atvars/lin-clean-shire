@@ -622,11 +622,15 @@ textarea.input-control{
   .modal-content {
     /* background-color: #fefefe; */
     background-color: var(--body-bg-color);
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
+    margin: 15% ; /* 15% from the top and centered */
+    padding: 50px;
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
     position: relative;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
   }
   .close {
     color: var(--main-color);
@@ -647,8 +651,8 @@ textarea.input-control{
   .sub-title-modal{
     font-size: var(--fs-2xl);
     color: var(--main-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
   }
+  ul{
+    margin: 40px;
+  }
+ 
