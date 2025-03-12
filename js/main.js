@@ -97,3 +97,6 @@ window.onclick = function(event) {
         modal3.style.display = "none";
     }
 }
+
+
+document.getElementById("currentYear").innerHTML = new Date().getFullYear();

@@ -562,6 +562,42 @@ textarea.input-control{
 
 /**********************************************************************  testimonials */
 /**********************************************************************  footer */
+.coppy{
+    color: var(--text-light-gray);
+    font-size: var(--fs-sm);
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.footer{
+    padding: 50px 0;
+    background-color: var(--main-color);
+    text-align: center;
+}
+.footer h3{
+    color: var(--text-white);
+    font-size: var(--fs-2xl);
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.footer .social-links a{
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    background-color: var(--bg-white);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 5px 30px 5px;
+    transition: all 0.5s ease;
+}
+.footer .social-links a:hover{
+    background-color: transparent;
+    color: var(--text-white);
+    border: 1px solid white;
+}
+
 /**********************************************************************  responsive */
 /**********************************************************************  modal */
 .modal {
